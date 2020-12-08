@@ -1,0 +1,33 @@
+/*
+ Theme Name:   Twenty Twenty Child
+ Theme URI:    http:www.bidencounter.com/twenty-fifteen-child/
+ Description:  Twenty Twenty Child Theme
+ Author:       CryptoJayMan
+ Author URI:   http://bidencounter.com
+ Template:     twentytwenty
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  twentytwentychild
+*/
+.countup {
+  text-align: center;
+  margin-bottom: 20px;
+}
+.countup .timeel {
+  display: inline-block;
+  padding: 10px;
+  background: #151515;
+  margin: 0;
+  color: white;
+  min-width: 2.6rem;
+  margin-left: 13px;
+  border-radius: 10px 0 0 10px;
+}
+.countup span[class*="timeRef"] {
+  border-radius: 0 10px 10px 0;
+  margin-left: 0;
+  background: #e8c152;
+  color: black;
+}
