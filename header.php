@@ -182,13 +182,13 @@
 		</header><!-- #site-header -->
 		<div class="countup" id="countup1">
   <span class="timeel days red">00</span>
-  <span class="timeel timeRefDays blue">days</span>
+  <span class="timeel timeRefDays blue">d</span>
   <span class="timeel hours red">00</span>
-  <span class="timeel timeRefHours blue">hours</span>
+  <span class="timeel timeRefHours blue">h</span>
   <span class="timeel minutes red">00</span>
-  <span class="timeel timeRefMinutes blue">minutes</span>
+  <span class="timeel timeRefMinutes blue">m</span>
   <span class="timeel seconds red">00</span>
-  <span class="timeel timeRefSeconds blue">seconds</span>
+  <span class="timeel timeRefSeconds blue">s</span>
 </div>
 		<?php
 		// Output the menu modal.

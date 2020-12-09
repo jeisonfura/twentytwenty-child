@@ -15,10 +15,10 @@ function countUpFromTime(countFrom, id) {
   var secondsInADay = 60 * 60 * 1000 * 24,
       secondsInAHour = 60 * 60 * 1000;
     
-  days = Math.floor(timeDifference / (secondsInADay) * 1);
-  hours = Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1);
-  mins = Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1);
-  secs = Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1);
+  days = Math.abs(Math.floor(timeDifference / (secondsInADay) * 1));
+  hours = Math.abs(Math.floor((timeDifference % (secondsInADay)) / (secondsInAHour) * 1));
+  mins = Math.abs(Math.floor(((timeDifference % (secondsInADay)) % (secondsInAHour)) / (60 * 1000) * 1));
+  secs = Math.abs(Math.floor((((timeDifference % (secondsInADay)) % (secondsInAHour)) % (60 * 1000)) / 1000 * 1));
 
   var idEl = document.getElementById(id);
   idEl.getElementsByClassName('days')[0].innerHTML = days;
