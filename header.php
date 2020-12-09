@@ -21,11 +21,10 @@
 		<link rel="profile" href="https://gmpg.org/xfn/11">
 
 		<?php wp_head(); ?>
-
+		<script type="text/javascript" src="/js/counter.js"></script>
 	</head>
 
 	<body <?php body_class(); ?>>
-
 		<?php
 		wp_body_open();
 		?>
@@ -181,7 +180,16 @@
 			?>
 
 		</header><!-- #site-header -->
-
+		<div class="countup" id="countup1">
+  <span class="timeel days red">00</span>
+  <span class="timeel timeRefDays blue">days</span>
+  <span class="timeel hours red">00</span>
+  <span class="timeel timeRefHours blue">hours</span>
+  <span class="timeel minutes red">00</span>
+  <span class="timeel timeRefMinutes blue">minutes</span>
+  <span class="timeel seconds red">00</span>
+  <span class="timeel timeRefSeconds blue">seconds</span>
+</div>
 		<?php
 		// Output the menu modal.
 		get_template_part( 'template-parts/modal-menu' );
